@@ -1,0 +1,296 @@
+body {
+    background-image: url(texto.png);
+    /* background-color: lightgray; */
+  
+    background-size: 100%;
+}
+
+.page-hearder {
+    position: fixed;
+    top: -2%;
+    left: 0;
+    float: left;
+    width: 99.7%;
+}
+
+.black-header {
+    height: 53px;
+    background-color: black;
+    padding: 5px 5px 0 15px;
+    border-bottom: 3.5px solid rgb(255, 221, 0);
+
+}
+
+.white-header {
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 12px;
+    /* border-radius: 0px 0px 20px 20px; */
+    box-shadow: 0 1px 10px black;
+    margin: 0;
+    position: fixed;
+    top: -2%;
+    left: 0;
+    width: 98.37%;
+    z-index: -1;
+}
+
+/* contenido del header negro */
+
+.trending-container a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* contenido del header blanco*/
+
+.logo {
+    background-image: url();
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100%;
+    z-index: -4;
+
+}
+
+.nombre-logo {
+    font-size: 60px;
+    display: flex;
+    color: rgb(203, 181, 38);
+    text-shadow: 4px 1px 1px rgba(255, 221, 0, 0.653);
+    margin: 0 480px;
+    padding: 0 0 35px 0;
+}
+
+#SUSCRIBETE {
+    background-color: rgb(243, 218, 56);
+    border-color: 0 2px 0 rgb(243, 218, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    left: 100%;
+    display: block; 
+    margin-left: 1150px;
+    margin-top: -55px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: 1px orange;
+}
+
+#SUSCRIBETE:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+#SUSCRIBETE:hover{
+    background-color: orange;  
+    text-decoration: none;
+}
+
+
+/* div vacio para que el body no se suba y quede detras del header */
+
+.vacio1 {
+    padding: 120px;
+}
+
+/* el cuerpo son las dos columnas de infomacion */
+
+.cuerpo-entero {
+    width: 100%;
+    display: inline-flex;
+}
+
+.cuerpo1 {
+    width: 70%;
+    background-color: white;
+    /*margin: auto; */
+    /* background-image: url(11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; no hacer caso estaba probando cosas*/
+}
+
+.cuerpo2 {
+    width: 30%;
+}
+
+/* cuerpo de terxto  */
+
+#titulo {
+    margin: 0 90px auto;
+    font-size: 70px;
+    color: black;
+    text-shadow: 2px 1px 1px rgb(255, 221, 0);
+    text-align: center;
+  
+}
+
+.subtitulo {
+    margin: auto;
+    color: black;
+    text-align: left;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+/* estructura  de tabla foto y texto en div */
+
+.foto1-texto1 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.foto1 {
+    width: 60%;
+    padding: 0 0 0 80px;
+}
+
+#foto1 {
+    width: 400px;
+}
+
+.texto1 {
+    width: 60%;
+    background-color: white;
+    padding: 0 80px 0 0;
+}
+
+#texto1 {
+    text-align: justify;
+}
+
+#foto2 {
+    width: 700px;
+    height: 450px;
+    margin: 0 160px auto;
+}
+
+#aside {
+    background-color: rgba(255, 221, 0, 0.049);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+    width: 320px;
+    margin: auto;
+    border: 1px 1px 0 0 solid black;
+}
+
+/* parametros de los parafos sin div de columnas */
+
+.todo-parrafo {
+    width: 700px;
+    text-align: justify;
+    margin: auto;
+}
+
+#aside2 {
+    background-color: rgba(255, 221, 0, 0.049);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+    width: 620px;
+    margin: auto;
+    border: 1px 1px 0 0 solid black;
+}
+
+.details-details{
+    margin: 0 160px auto;  
+}
+
+.details{
+   text-decoration: none;
+   margin: 0 89px auto;
+    display: inline-flex;
+}
+
+.subtitulo-details{
+    margin: auto;
+    color: black;
+    width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#iframe-irobot{
+    width: 700px;
+    height: 350px;
+    margin: 0 160px auto;
+    display: inline-flex;
+}
+
+/* targetas de la derecha */
+
+.tarjeta1 {
+    padding: 5px;
+    border: solid rgb(255, 221, 0);
+    background-color: rgb(255, 221, 0);
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tarjeta1 {
+    /* imagen de la targeta1 */
+    width: 380px;
+}
+
+.tarjeta2 {
+    padding: 5px;
+    border: solid rgb(255, 221, 0);
+    background-color: rgb(255, 221, 0);
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.carrucel {
+    /* tarjeta dos */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    transition-timing-function: 1s;
+}
+
+.elementos {
+    /* elementos dentro del carrucel */
+    width: 405px;
+}
+
+.imagen-carrucel {
+    /* parametros de las imagenes de elementos del carrucel */
+    width: 405px;
+    height: 450px;
+}
+
+
+
+
+.footer {
+    height: 250px;
+    background-color: rgba(211, 211, 211, 0.164);
+    padding: 0 12px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0.5px 0 5px black;
+    margin-bottom: bottom;
+    position: fixed;
+    bottom: auto;
+    left: 0;
+    width: 98.37%;
+}
